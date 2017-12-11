@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Matrix Shuffling 
+		</title>
+			<link rel="stylesheet" type="text/css" href="css/custom.css">
+			<meta charset="utf-8"/>
+	</head>
+	
+	<body onload="initialize()">
+		<form>
+			<div class="main-container">
+				<ul class="color-selector" onclick="selectColor()">
+					<li><input type="radio" name="color" id="red" value="Red">Red</li>
+					<li><input type="radio" name="color" id="green" value="Green" >Green</li>
+					<li><input type="radio" name="color" id="blue" value="Blue" >Blue</li>
+				</ul>
+																
+				<div class="container">
+					<ul class="content">
+						<li><input type="button" name="button1" id="1" class="arrange" onclick="assignColor(this)"></li>
+						<li><input type="button" name="button2" id="2" class="arrange" onclick="assignColor(this)"></li>
+						<li><input type="button" name="button3" id="3" class="arrange" onclick="assignColor(this)"></li>
+						<li><input type="button" name="button4" id="4" class="arrange" onclick="assignColor(this)"></li>
+						<li><input type="button" name="button5" id="5" class="arrange" onclick="assignColor(this)"></li>
+						<li><input type="button" name="button6" id="6" class="arrange" onclick="assignColor(this)"></li>
+						<li><input type="button" name="button7" id="7" class="arrange" onclick="assignColor(this)"></li>
+						<li><input type="button" name="button8" id="8" class="arrange" onclick="assignColor(this)"></li>
+						<li><input type="button" name="button9" id="9" class="arrange" onclick="assignColor(this)"></li>
+					</ul>   
+				</div>
+
+				<div class="clear-container"></div>
+					<div class="event-generates">
+						<ul class="event-contents">
+							<li><input type="button" name="reset" value="Reset" onclick="restore()"></li>
+							<li><input type="button" name="randomize" value="Randomize" onclick="shuffle()"></li>
+						</ul>
+					</div>
+				<div class="clear"></div>
+			</div>
+
+		</form> 
+	</body>
+	<script src="javascript/Script.js"></script>
+</html>
